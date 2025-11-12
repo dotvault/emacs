@@ -1,4 +1,4 @@
-# Dotfiles --- Emacs
+# Dotvault --- Emacs
 
 ```sh
 # Backup/Rename
@@ -14,11 +14,11 @@
 
 # Option 1: Base on XDG Spec (Recommanded)
 mkdir -p $HOME/.config/emacs
-git clone https://github.com/startup-dotfiles/emacs $HOME/.config/emacs
+git clone https://github.com/dotvault/emacs.git $HOME/.config/emacs
 
 # Option 2: Standard Installation Location
 mkdir -p $HOME/.emacs.d
-git clone https://github.com/startup-dotfiles/emacs $HOME/.emacs.d
+git clone https://github.com/dotvault/emacs.git $HOME/.emacs.d
 ```
 
 ```sh
